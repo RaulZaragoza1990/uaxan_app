@@ -51,7 +51,7 @@ export default function NewProduct() {
         if (data.errors) {
           alert("Ocurrió un error");
         } else {
-          alert("Haz Hecho tu publicación con exito!");
+          alert("Haz publicado ocn exito");
 
           // Guardar el "token de la sesión" para usarlo posteriormente
           localStorage.setItem("token", data.user.token);
